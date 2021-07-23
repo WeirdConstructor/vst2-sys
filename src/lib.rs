@@ -98,6 +98,8 @@ pub mod effect_opcodes {
     pub const IDLE: i32 = 53;
     pub const GET_PARAMETER_PROPERTIES: i32 = 56;
     pub const GET_VST_VERSION: i32 = 58;
+    pub const EDIT_KEY_DOWN: i32 = 59;
+    pub const EDIT_KEY_UP: i32 = 60;
     pub const SHELL_GET_NEXT_PLUGIN: i32 = 70;
     pub const START_PROCESS: i32 = 71;
     pub const STOP_PROCESS: i32 = 72;
